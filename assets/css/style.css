@@ -2384,3 +2384,12 @@ textarea {
   display: flex;
   justify-content: center;
 }
+.banner-section {
+  height: 100%; /* Full screen height */
+  width: auto;
+  background: url('https://srimahapratyangiradevi-com.translate.goog/wp-content/uploads/2024/06/Untitled-design-1.jpg?_x_tr_sl=en&_x_tr_tl=ta&_x_tr_hl=ta&_x_tr_pto=imgs') no-repeat center center;
+  background-size: cover; /* Makes the image cover the whole section */
+  display: flex;
+  align-items: center; /* Vertically center content */
+  position: relative;
+}
