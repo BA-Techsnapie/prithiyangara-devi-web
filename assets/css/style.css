@@ -745,7 +745,8 @@ p {
 }
 .our_specialties_section .specialties_image {
   text-align: center;
-  margin-top: 90px;
+  margin-top: 150px;
+  margin-left: 80px;
   animation: float_img 6s ease-in-out infinite;
 }
 .our_specialties_section .our_specialties_right_shape {
