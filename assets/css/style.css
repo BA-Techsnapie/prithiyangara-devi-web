@@ -2420,3 +2420,60 @@ textarea {
       left: -100%;
     }
   }
+  .donation-container {
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 20px;
+      border: 1px solid #f35105;
+      border-radius: 12px;
+      background: #fff;
+      text-align: left;
+      font-family: Arial, sans-serif;
+      position: relative;
+    }
+
+    .donation-heading {
+      display: inline-block;
+      background: #f35105;
+      color: #fff;
+      padding: 8px 20px;
+      border-radius: 6px;
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .donation-details {
+      margin-top: 10px;
+      color: #f35105;
+      font-size: 16px;
+      line-height: 1.8;
+    }
+
+    .donation-details span {
+      font-weight: bold;
+    }
+
+    .bank-logos {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      text-align: right;
+    }
+
+    .bank-logos img {
+      height: 50px;
+      margin: -5px 0;
+      display: block;
+    }
+
+    .copy-icon {
+      cursor: pointer;
+      margin-left: 5px;
+      color: #f35105;
+      font-size: 14px;
+    }
+
+    .copy-icon:hover {
+      color: #f35105;
+    }
