@@ -1429,7 +1429,7 @@ textarea {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 420px;
+  height: 40px;
 }
 .sub-banner-section .banner-section {
   padding: 110px 0 120px;
@@ -2564,3 +2564,16 @@ textarea {
         gap: 20px;
       }
     }
+    .styled-btn {
+    background-color: #facc06;   /* Default color */
+    border: none;
+    border-radius: 8px;          /* Curved edges */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+
+  .styled-btn:hover {
+    background-color: #f35105;   /* Hover color */
+  }
