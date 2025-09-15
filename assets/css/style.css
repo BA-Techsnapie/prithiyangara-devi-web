@@ -2506,6 +2506,7 @@ textarea {
       border: 1px solid #fff;
       padding: 10px 20px;
       border-radius: 10px;
+      margin: auto;
     }
 
     .darshan-timings h3 {
@@ -2515,7 +2516,7 @@ textarea {
     }
 
     .darshan-timings p {
-      margin: 5px 0 0;
+      margin:   0 0 0;
       font-size: 14px;
     }
 
@@ -2551,6 +2552,10 @@ textarea {
       color: #fff;
       text-decoration: none;
       font-size: 15px;
+      border: 1px solid #fff;
+      padding: 10px 20px;
+      border-radius: 10px;
+      margin: auto;
     }
 
     .contact-info a:hover {
