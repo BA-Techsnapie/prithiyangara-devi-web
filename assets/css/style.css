@@ -2301,6 +2301,9 @@ textarea {
     justify-content: center;
     flex-wrap: wrap;
     margin: 50px 0px;
+    margin-left: 10px;
+  margin-right: 10px;
+  width: calc(100% - 20px); 
 }
 .img1 img{
     height: 300px;
@@ -2463,7 +2466,7 @@ textarea {
 
     .bank-logos img {
       height: 50px;
-      margin: -5px 0;
+      margin: -5px -20px;
       display: block;
     }
 
@@ -2533,17 +2536,29 @@ textarea {
     }
 
     .upi-logos {
-      margin-top: 8px;
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-      align-items: center;
-    }
+  display: flex;
+  justify-content: center;   /* center align horizontally */
+  align-items: center;
+  gap: 10px;                 /* space between logos */
+  background: #ffffff;       /* white background */
+  padding: 5px 2px;        /* breathing space inside */
+  border-radius: 12px;       /* rounded corners (optional) */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08); /* subtle shadow */
+  flex-wrap: wrap;           /* wrap logos if screen is small */
+}
 
-    .upi-logos img {
-      width: 40px;
-      height: auto;
-    }
+/* Style for each logo image */
+.upi-logos img {
+  height: 40px;              /* consistent height */
+  width: auto;               /* keep aspect ratio */
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+/* Nice hover effect */
+.upi-logos img:hover {
+  transform: scale(1.1);
+}
 
     /* Column 3: Map & Phone */
     .contact-info a, .contact-info p {
